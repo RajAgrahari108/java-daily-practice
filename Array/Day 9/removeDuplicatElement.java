@@ -1,17 +1,17 @@
 public class removeDuplicatElement {
     public static void main(String[] args) {
-        int a[]= {10, 20, 10, 20, 30};
-        int b[]=new int [a.length];
+        int nums[]= {10, 20, 10, 20, 30};
+        int b[]=new int [nums.length];
         int in=0;
-        for(int i=0; i<a.length; i++){
+        for(int i=0; i<nums.length; i++){
                 boolean flag =true;
-            for(int j=i+1; j<a.length; j++){
-                if(a[i]==a[j]){
+            for(int j=i+1; j<nums.length; j++){
+                if(nums[i]==nums[j]){
                     flag = false;
                 }
             }
             if(flag == true){
-                b[in]= a[i];
+                b[in]= nums[i];
                 in++;
             }
         }
