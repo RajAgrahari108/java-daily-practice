@@ -17,6 +17,6 @@ public class reverseKTimeArray {
            a[a.length-1]= temp;
         }
         System.out.print("After sorting : ");
-        System.out.println(Arrays.toString(a));
+        System.out.println(Arrays.toString(b));
     }
 }
